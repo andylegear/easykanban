@@ -1,0 +1,202 @@
+{
+  "swimlanes": [
+    {
+      "id": "sl_website_redesign",
+      "name": "🌐 Website Redesign Project",
+      "tasks": [
+        {
+          "id": "task_001",
+          "title": "Gather stakeholder requirements",
+          "description": "Meet with marketing, sales, and product teams to collect requirements for the new website design.",
+          "status": "done",
+          "color": "#6bcb77",
+          "labels": ["meeting", "requirements"]
+        },
+        {
+          "id": "task_002",
+          "title": "Create wireframes",
+          "description": "Design low-fidelity wireframes for homepage, product pages, and checkout flow.",
+          "status": "done",
+          "color": "#4d96ff",
+          "labels": ["design", "UX"]
+        },
+        {
+          "id": "task_003",
+          "title": "Design system setup",
+          "description": "Establish color palette, typography, spacing, and component library in Figma.",
+          "status": "inprogress",
+          "color": "#4d96ff",
+          "labels": ["design", "UI"]
+        },
+        {
+          "id": "task_004",
+          "title": "Homepage development",
+          "description": "Build responsive homepage with hero section, featured products, and testimonials.",
+          "status": "inprogress",
+          "color": "#c9b1ff",
+          "labels": ["development", "frontend"]
+        },
+        {
+          "id": "task_005",
+          "title": "Mobile optimization",
+          "description": "Ensure all pages are fully responsive and optimized for mobile devices.",
+          "status": "todo",
+          "color": "#ff9f45",
+          "labels": ["development", "mobile"]
+        },
+        {
+          "id": "task_006",
+          "title": "Performance audit",
+          "description": "Run Lighthouse tests and optimize Core Web Vitals scores.",
+          "status": "todo",
+          "color": "#ff6b6b",
+          "labels": ["testing", "performance"]
+        }
+      ]
+    },
+    {
+      "id": "sl_q1_reports",
+      "name": "📊 Q1 Quarterly Reports",
+      "tasks": [
+        {
+          "id": "task_007",
+          "title": "Pull sales data from CRM",
+          "description": "Export Q1 sales figures, conversion rates, and pipeline data from Salesforce.",
+          "status": "done",
+          "color": "#ffd93d",
+          "labels": ["data", "sales"]
+        },
+        {
+          "id": "task_008",
+          "title": "Analyze marketing ROI",
+          "description": "Calculate return on investment for each marketing channel and campaign.",
+          "status": "inprogress",
+          "color": "#ffd93d",
+          "labels": ["analysis", "marketing"]
+        },
+        {
+          "id": "task_009",
+          "title": "Create executive summary",
+          "description": "Write 2-page summary highlighting key wins, challenges, and recommendations.",
+          "status": "todo",
+          "color": "#ff6b6b",
+          "labels": ["writing", "urgent"]
+        },
+        {
+          "id": "task_010",
+          "title": "Build presentation deck",
+          "description": "Create PowerPoint with charts, graphs, and talking points for board meeting.",
+          "status": "todo",
+          "color": "#45b7d1",
+          "labels": ["presentation"]
+        }
+      ]
+    },
+    {
+      "id": "sl_team_onboarding",
+      "name": "👥 New Team Member Onboarding",
+      "tasks": [
+        {
+          "id": "task_011",
+          "title": "Prepare workstation",
+          "description": "Set up laptop, monitors, keyboard, and request necessary software licenses.",
+          "status": "done",
+          "color": "#98d8c8",
+          "labels": ["IT", "setup"]
+        },
+        {
+          "id": "task_012",
+          "title": "Create onboarding checklist",
+          "description": "Document all steps for first week including HR paperwork, team intros, and training sessions.",
+          "status": "done",
+          "color": "#85c1e9",
+          "labels": ["documentation"]
+        },
+        {
+          "id": "task_013",
+          "title": "Schedule intro meetings",
+          "description": "Book 30-min intro calls with each team member and key stakeholders.",
+          "status": "inprogress",
+          "color": "#bb8fce",
+          "labels": ["meetings", "calendar"]
+        },
+        {
+          "id": "task_014",
+          "title": "Assign first project",
+          "description": "Identify a small starter project to help new hire get familiar with codebase.",
+          "status": "todo",
+          "color": "#f8b500",
+          "labels": ["planning"]
+        }
+      ]
+    },
+    {
+      "id": "sl_bug_fixes",
+      "name": "🐛 Critical Bug Fixes",
+      "tasks": [
+        {
+          "id": "task_015",
+          "title": "Fix login timeout issue",
+          "description": "Users are being logged out after 5 minutes. Investigate session management.",
+          "status": "done",
+          "color": "#ff6b6b",
+          "labels": ["bug", "auth", "critical"]
+        },
+        {
+          "id": "task_016",
+          "title": "Resolve payment gateway error",
+          "description": "Some transactions failing with error code 503. Check Stripe integration.",
+          "status": "inprogress",
+          "color": "#ff6b6b",
+          "labels": ["bug", "payments", "critical"]
+        },
+        {
+          "id": "task_017",
+          "title": "Fix email notification delays",
+          "description": "Order confirmation emails taking 10+ minutes to send. Review queue system.",
+          "status": "todo",
+          "color": "#ff9f45",
+          "labels": ["bug", "email"]
+        },
+        {
+          "id": "task_018",
+          "title": "Address memory leak in dashboard",
+          "description": "Dashboard page consuming excessive memory after prolonged use.",
+          "status": "todo",
+          "color": "#c9b1ff",
+          "labels": ["bug", "performance"]
+        }
+      ]
+    },
+    {
+      "id": "sl_personal_dev",
+      "name": "📚 Professional Development",
+      "tasks": [
+        {
+          "id": "task_019",
+          "title": "Complete AWS certification course",
+          "description": "Finish remaining modules for AWS Solutions Architect Associate exam.",
+          "status": "inprogress",
+          "color": "#f7dc6f",
+          "labels": ["learning", "AWS"]
+        },
+        {
+          "id": "task_020",
+          "title": "Read 'Clean Code' book",
+          "description": "Finish chapters 10-17 and take notes on key principles.",
+          "status": "todo",
+          "color": "#6bcb77",
+          "labels": ["reading", "best-practices"]
+        },
+        {
+          "id": "task_021",
+          "title": "Attend team tech talk",
+          "description": "Join Friday's presentation on microservices architecture.",
+          "status": "todo",
+          "color": "#4d96ff",
+          "labels": ["meeting", "learning"]
+        }
+      ]
+    }
+  ]
+}
